@@ -25,3 +25,5 @@ console.log(firstname);
 //-->import into local variable
 const {firstname: local1, lastname: local2, age: local3} = profile;
 console.log(local3);
+
+//
