@@ -5,9 +5,9 @@
 
 //macam variable var, let, const
 //var banyak bug, use let and const ------> const ga bisa dibuah
-let first_name = "rifqi";
+let first_name = "my";
 let mid_name;
-mid_name="hanif";
+mid_name="you";
 let full_name = first_name +" "+mid_name;
 console.log(`my name is ${full_name}`);
 

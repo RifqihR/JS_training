@@ -3,7 +3,7 @@
 //key must string, followed with ":"
 
 const user = {
-    nama: "rfiqi", 
+    nama: "mine", 
     age: 12, 
     gender: "male",
     high: 25
@@ -11,7 +11,7 @@ const user = {
 console.log(user.age);
 
 //inputing to object
-user.nama = "hanif";
+user.nama = "koi";
 user["age"] = 23;
 console.log(user.nama);
 console.log(user.age);
