@@ -27,7 +27,7 @@
 // TODO
 
 const restaurant={
-    nama: "sumber mulyo",
+    name: "sumber mulyo",
     city: "jogja",
     "favorit drink": "soda",
     "favorit food": "geprek",
