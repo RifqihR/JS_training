@@ -18,4 +18,7 @@ myarray.shift();
 delete myarray[1];
 
 //deleting many element
-myarray.splice(2,1) //delete 1 element from index 2 
+myarray.splice(2,1); //delete 1 element from index 2 
+
+//how to add value between index
+myarray.splice(2,1,"add value");
