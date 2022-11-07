@@ -24,16 +24,13 @@
 // TODO
 
 function minimal (a,b){
-    let terkecil;
-    if (a>=b){
-        terkecil = a;
+    if (a<=b){
+        return a;
     } else {
-        terkecil = b;
-    }
-    return terkecil; 
+        return b;
+    };
 };
 
 function power(a,b){
-    let nilai = a**b;
-    return nilai;
+    return a**b;
 };
