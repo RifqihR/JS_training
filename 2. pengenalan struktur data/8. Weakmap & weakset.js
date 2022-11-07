@@ -34,3 +34,5 @@ akbar = null;
 setTimeout(() => {
     console.log(inspect(visitcountweakmap, {showHidden: true})); //--> 1) nilai weakmap tidak dapat dilihat secara langsung(use inspect) nilai akbar akan terhapus
 }, 10000); //-->dibutuhkan untuk membeirkan waktu kerja pada garbage collector
+
+//weakmap tidak termaksud kategori iterable, tidak bisa menggunakan method key(), values(), atau forEach()
