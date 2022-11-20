@@ -30,11 +30,36 @@
 
 // TODO
 class Animal {
-    constructor(){
-        this.name = "tiger";
-        this.age = 16;
-        this.isMammal = true;
+    constructor(nama, umur, gender){
+        this.name = nama;
+        this.age = umur;
+        this.isMammal = gender;
     }
 }
-const hewan = new Animal();
-hewan;
+
+class Rabbit extends Animal {
+    constructor(nama, umur){
+        super(nama, umur);
+        this.isMammal = true;
+    }
+
+    eat(){
+        return this.name + " sedang makan!";
+    }
+};
+
+class Eagle extends Animal {
+    constructor(nama, umur){
+        super(nama, umur);
+        this.isMammal = false;
+    }
+
+    fly(){
+        return this.name + " sedang terbang!";
+    }
+};
+
+let myRabbit = new Rabbit("Labi", 2);
+let myEagle = new Eagle("Elo", 4);
+
+console.log(myRabbit.eat())

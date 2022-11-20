@@ -14,8 +14,8 @@ Mail.prototype.sendMessage = function(msg, to){
 
 //--->1.2. function tanpa pendekatan prototype ---->mengcopy setiap object
 function pesan(){
-    ini.dari = 'sender@mail.com',
-    ini.sendMessage = function(psn, ke){
+    this.dari = 'sender@mail.com',
+    this.sendMessage = function(psn, ke){
         console.log(`you send: ${psn} to ${ke} from ${ini.dari}`)
     };
 };
