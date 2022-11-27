@@ -1,0 +1,1 @@
+import coffeeStock from './3.1. ES6 module.js'; //jika hanya 1, bisa pake penamaan variable apasaja. pakai deconsturing object {var1, var2, ...} jika lebih dari 1 
