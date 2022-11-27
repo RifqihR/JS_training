@@ -1,9 +1,8 @@
 //class memberikan informasi tentang suatu objek. bisa dibilang object adalah instance dari sebuah class
-
 //penulisan Class
 //---->1.  penulisan class menggunakan sintaksi function
-
 //--->1.1 function dengan pendekatan prototype --->tidak mengcopy object pada prototype
+
 function Mail(){
     this.from = 'pengirim@mail.com'
 };
@@ -24,7 +23,6 @@ const mail1 = new Mail();
 
 mail1.sendMessage('haloo', 'receiver@mail.co.id');
 //--------------------------------------------------------------------------------------\\
-
 //--->2. sintaksi Class --->sama seperti prototype
 
 class newmail {
